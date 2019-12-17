@@ -1,0 +1,104 @@
+.padding-body-50 {
+    padding-top: 50px;
+}
+/* colors */
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+.bg-white {
+    background-color: white;
+    
+}
+.bac-color-333 {
+    background-color: #333;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-grey {
+    background-color: grey;
+}
+.border-danger {
+    border: 1px solid red;
+    color: red;
+}
+.border-grey {
+    border: 1px solid grey;
+}
+.border-black {
+    border: 1px solid black;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+/* navbar */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: white;
+    border-left: 1px solid white;
+    background-color: black;
+} 
+/* #nav ul>li {
+    padding: 5px 0px;
+} */
+.navbar-inverse .navbar-collapse, .navbar-inverse  {
+    background-color: black;
+}
+/* paddings */
+.padding-top-bottom-10{
+    padding: 10px 0px;
+}
+.padding-top-bottom-20{
+    padding: 20px 0px;
+}
+.padding-nav-5-20{
+    padding: 5px 20px;
+}
+.padding-galery-10{
+    padding: 10px;
+}
+.margin-right {
+    margin-right: 10px;
+}
+.flex-align-vertical {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.flex-align-vertical-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* Contact US */
+#contactUs {
+    background-image: url('images/image1.jpg');
+    background-size: cover;
+    
+    height: 70vh;
+}
+#ourStaff img {
+    width: 50%;
+}
+.portraits  {
+    border-top: 1px solid black;
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    #ourStaff img {
+        width: 80%;
+    }
+    #ourStaff h4,p {
+        font-size: 0.9em;
+    }
+}
+@media only screen and (min-width:768px) {
+    .margin-panel-right {
+        margin-right: 20px;
+    }
+}
